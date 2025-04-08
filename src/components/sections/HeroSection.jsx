@@ -39,7 +39,9 @@ const HeroSection = () => {
         src={videoBg}
         style={{ opacity: hideVideo ? 0 : 1 }}
       />
-      
+      <div className="slogan">
+        <h1>Yorug' kelajak  sari birga <span>birga</span></h1>
+      </div>
       <div
         className={`overlay ${overlayVisible ? 'visible' : ''}`}
       ></div>
