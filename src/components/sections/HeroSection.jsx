@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../../assets/HeroSection.css";
 import videoBg from "../../assets/media/3db73050c0c9be4efe1065709861ee576e7b8eb6.mp4";
 import img1 from "../../assets/media/1.png";
@@ -8,21 +8,21 @@ import img3 from "../../assets/media/3.png";
 const cardData = [
   {
     title: "Solar Customers",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    desc: "Discover how solar energy can transform your home and reduce your bills.",
     bg: img1,
-    span: `Find us → `,
+    span: `Find us`,
   },
   {
     title: "Solar Professionals",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    desc: "Join our network of certified solar installers and technicians.",
     bg: img2,
-    span: `Find us → `,
+    span: `Find us`,
   },
   {
     title: "Solar Panels",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    desc: "Explore our high-efficiency solar panel solutions for any need.",
     bg: img3,
-    span: `Find us → `,
+    span: `Find us`,
   },
 ];
 
@@ -30,6 +30,12 @@ const HeroSection = () => {
   const [hoverBg, setHoverBg] = useState(null);
   const [hideVideo, setHideVideo] = useState(false);
   const [overlayVisible, setOverlayVisible] = useState(false);
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    // Set loaded to true after component mounts to trigger animations
+    setLoaded(true);
+  }, []);
 
   return (
     <section className="hero-section">
@@ -42,11 +48,13 @@ const HeroSection = () => {
         src={videoBg}
         style={{ opacity: hideVideo ? 0 : 1 }}
       />
-      <div className="slogan">
+      
+      <div className={`slogan ${loaded ? "animate" : ""}`}>
         <h1>
           Yorug' kelajak sari birga <span>birga</span>
         </h1>
       </div>
+      
       <div className={`overlay ${overlayVisible ? "visible" : ""}`}></div>
 
       <div
@@ -73,7 +81,7 @@ const HeroSection = () => {
             }}
           >
             <div className="card-content">
-              <img src={card.bg} alt="" />
+              <img src={card.bg} alt={card.title} />
               <h2>{card.title}</h2>
               <p>{card.desc}</p>
               <span>{card.span}</span>
