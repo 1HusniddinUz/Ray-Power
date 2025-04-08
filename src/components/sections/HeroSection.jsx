@@ -8,18 +8,21 @@ import img3 from "../../assets/media/3.png";
 const cardData = [
   {
     title: "Solar Customers",
-    desc: "Find solar pros near you.",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
     bg: img1,
+    span: `Find us → `,
   },
   {
     title: "Solar Professionals",
-    desc: "Use OpenSolar software.",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
     bg: img2,
+    span: `Find us → `,
   },
   {
-    title: "Solar Partners",
-    desc: "Partner with OpenSolar.",
+    title: "Solar Panels",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
     bg: img3,
+    span: `Find us → `,
   },
 ];
 
@@ -70,9 +73,10 @@ const HeroSection = () => {
             }}
           >
             <div className="card-content">
-              <img src={img1} alt="" />
+              <img src={card.bg} alt="" />
               <h2>{card.title}</h2>
               <p>{card.desc}</p>
+              <span>{card.span}</span>
             </div>
           </div>
         ))}
