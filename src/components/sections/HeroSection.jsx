@@ -8,7 +8,7 @@ import img3 from "../../assets/media/3.png";
 const cardData = [
   {
     title: "Solar Customers",
-    desc: "Discover how solar energy can transform your home and reduce your bills.",
+    desc: "Discover how solar energy can transform your home .",
     bg: img1,
     span: `Find us`,
   },
