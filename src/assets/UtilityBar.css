@@ -1,0 +1,37 @@
+#UtilityBar
+{
+    width: 100%;
+    background: #000;
+    height: 5vh;
+    align-content: center;    
+}
+#UtilityBar .container
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .lang_switcher
+{
+    width: 20%;
+    color: white;
+}
+.lang_switcher span 
+{
+    cursor: pointer;
+}
+.container .social_links
+{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social_links i
+{
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
