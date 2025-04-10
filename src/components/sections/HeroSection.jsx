@@ -51,7 +51,7 @@ const HeroSection = () => {
       
       <div className={`slogan ${loaded ? "animate" : ""}`}>
         <h1>
-          Yorug' kelajak sari birga <span>birga</span>
+          Yorug' kelajak sari <span>birga</span>
         </h1>
       </div>
       
