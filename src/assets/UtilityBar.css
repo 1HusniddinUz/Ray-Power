@@ -1,37 +1,45 @@
-#UtilityBar
-{
-    width: 100%;
-    background: #000;
-    height: 5vh;
-    align-content: center;    
+#UtilityBar {
+  width: 100%;
+  background: #000;
+  height: 5vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-content: center;
+  z-index: 999;
+  transition: top 0.4s ease-in-out;
 }
-#UtilityBar .container
-{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+#UtilityBar.hidden {
+  top: -100%; /* yashirish uchun yuqoriga suriladi */
+}   
+
+#UtilityBar .container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.container .lang_switcher
-{
-    width: 20%;
-    color: white;
+
+.container .lang_switcher {
+  width: 20%;
+  color: white;
 }
-.lang_switcher span 
-{
-    cursor: pointer;
+
+.lang_switcher span {
+  cursor: pointer;
 }
-.container .social_links
-{
-    width: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+.container .social_links {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.social_links i
-{
-    color: white;
-    font-size: 1.4rem;
-    cursor: pointer;
+
+.social_links i {
+  color: white;
+  font-size: 1.4rem;
+  cursor: pointer;
 }
