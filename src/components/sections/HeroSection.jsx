@@ -81,7 +81,7 @@ const HeroSection = () => {
             }}
           >
             <div className="card-content">
-              <img src={card.bg} alt={card.title} />
+              <img src={card.bg} alt={card.title} loading="lazy"/>
               <h2>{card.title}</h2>
               <p>{card.desc}</p>
               <span>{card.span}</span>

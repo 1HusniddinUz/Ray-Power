@@ -1,8 +1,11 @@
 import React from 'react'
-
+import ContactForm from '../sections/ContactForm'
+import "../../assets/Footer.css"
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+      <ContactForm />
+    </footer>
   )
 }
 
