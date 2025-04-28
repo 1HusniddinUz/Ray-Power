@@ -23,18 +23,33 @@
 .container .form_left
 {
     width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 55vh;
 }
 .form_left .form_left_top 
 {
     width: 100%;
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .form_left .form_left_bottom
 {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+
 } 
+.form_left_bottom .form_left_bottom_social
+{
+    width: 100px;
+    gap: 20px;
+    display: flex;
+}
+.form_left_bottom .form_left_bottom_social i 
+{
+    font-size: 1.5rem;
+    color: white;
+}
+
 .container .form_middle
 {
     width: 32%;

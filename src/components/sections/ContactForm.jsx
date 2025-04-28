@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/ContactForm.css"
+import "../../assets/ContactForm.css";
 const ContactForm = () => {
   return (
     <div id="ContactForm">
@@ -7,24 +7,30 @@ const ContactForm = () => {
         <div className="form_left">
           <div className="form_left_top">
             <h2>Contact Us</h2>
-          </div>
-          <div className="form_left_bottom">
             <span>General Manager : Palonchayev Paloncha</span>
             <span>
-              Phone : <a href="tel:+998998887766">+998(99)888-77-66 </a>
+              Phone : <a href="tel:+998998887766" target="_blank" rel="noopener noreferrer">+998(99)888-77-66 </a>
             </span>
             <span>
               Email :{" "}
-              <a href="PalonchayevPaloncha@mail.ru">
+              <a href="https://PalonchayevPaloncha@mail.ru" target="_blank" rel="noopener noreferrer">
                 PalonchayevPaloncha@mail.ru
               </a>
             </span>
           </div>
+          <div className="form_left_bottom">
+            <div className="form_left_bottom_social">
+              <a href="https://t.me/buxoro_tadbirkorlar_klubi"  target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+              <a href="https://instagram.com/buxoro_tadbirkorlar_klubi"  target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
         </div>
         <div className="form_middle">
-          <div className="form_middle_sBox">
-
-          </div>
+          <div className="form_middle_sBox"></div>
         </div>
         <div className="form_right">
           <div className="form_right_top">

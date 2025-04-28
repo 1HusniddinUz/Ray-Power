@@ -45,12 +45,12 @@ const Navbar = () => {
               <a href="#Features">Services</a>
             </li>
             <li>
-              <a href="#Contact">Contact</a>
+              <a href="#ContactForm">Contact</a>
             </li>
           </ul>
         </div>
         <div className="call_center">
-          <a href="#">+998(91)820-84-46</a>
+          <a href="tel:998918208446" target="_blank" rel="noopener noreferrer">+998(91)820-84-46</a>
         </div>
       </div>
     </nav>

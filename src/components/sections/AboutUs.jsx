@@ -17,7 +17,7 @@ const AboutUs = () => {
         </div>
         <div id='company' className="desc">
           <p>Biz har doim mijozlarimiz bilan halolmiz va o'nlab <br /> yillar davomida muammosiz ishlaydigan ishonchli, <br /> optimal yechimlarni taqdim etamiz.</p>
-          <a href="#"><button>Kompaniya haqida batafsil</button></a>
+          <a href="tel:998998887766" target='_blank' rel="noopener noreferrer"><button>Kompaniya haqida batafsil</button></a>
         </div>
       </div>
     </div>
