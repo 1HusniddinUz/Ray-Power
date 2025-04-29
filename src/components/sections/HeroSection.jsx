@@ -4,6 +4,7 @@ import videoBg from "../../assets/media/3db73050c0c9be4efe1065709861ee576e7b8eb6
 import img1 from "../../assets/media/1.png";
 import img2 from "../../assets/media/2.png";
 import img3 from "../../assets/media/3.png";
+import { useTranslation } from "react-i18next";
 
 const cardData = [
   {
@@ -27,6 +28,7 @@ const cardData = [
 ];
 
 const HeroSection = () => {
+  const { t } = useTranslation();
   const [hoverBg, setHoverBg] = useState(null);
   const [hideVideo, setHideVideo] = useState(false);
   const [overlayVisible, setOverlayVisible] = useState(false);
@@ -51,7 +53,7 @@ const HeroSection = () => {
       
       <div className={`slogan ${loaded ? "animate" : ""}`}>
         <h1>
-          Yorug' kelajak sari <span>birga</span>
+          <span>{t(`quotes`)}</span>
         </h1>
       </div>
       

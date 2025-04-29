@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../../assets/Navbar.css";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [scrollingDown, setScrollingDown] = useState(false); // Skroll holatini kuzatish uchun state
@@ -30,6 +31,8 @@ const Navbar = () => {
     };
   }, []);
 
+  const {t} = useTranslation();
+
   return (
     <nav className={scrollingDown ? "navbar-hidden" : "navbar-visible"}>
       <div className="container">
@@ -39,13 +42,13 @@ const Navbar = () => {
         <div className="menu">
           <ul>
             <li>
-              <a href="#AboutUs">About</a>
+              <a href="#AboutUs">{t(`about`)}</a>
             </li>
             <li>
-              <a href="#Features">Services</a>
+              <a href="#Features">{t(`services`)}</a>
             </li>
             <li>
-              <a href="#ContactForm">Contact</a>
+              <a href="#ContactForm">{t(`contact`)}</a>
             </li>
           </ul>
         </div>

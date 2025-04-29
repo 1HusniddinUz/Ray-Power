@@ -1,18 +1,20 @@
 import React from "react";
 import "../../assets/ContactForm.css";
+import { useTranslation } from "react-i18next";
 const ContactForm = () => {
+  const {t} = useTranslation();
   return (
     <div id="ContactForm">
       <div className="container">
         <div className="form_left">
           <div className="form_left_top">
-            <h2>Contact Us</h2>
-            <span>General Manager : Palonchayev Paloncha</span>
+            <h2>{t(`contact`)}</h2>
+            <span>{t(`generalManager`)}  {t(`managerName`)}</span>
             <span>
-              Phone : <a href="tel:+998998887766" target="_blank" rel="noopener noreferrer">+998(99)888-77-66 </a>
+            {t(`phone`)} <a href="tel:+998998887766" target="_blank" rel="noopener noreferrer">+998(99)888-77-66 </a>
             </span>
             <span>
-              Email :{" "}
+            {t(`email`)} :{" "}
               <a href="https://PalonchayevPaloncha@mail.ru" target="_blank" rel="noopener noreferrer">
                 PalonchayevPaloncha@mail.ru
               </a>
@@ -21,10 +23,10 @@ const ContactForm = () => {
           <div className="form_left_bottom">
             <div className="form_left_bottom_social">
               <a href="https://t.me/buxoro_tadbirkorlar_klubi"  target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-telegram"></i>
+                <i className="fa-brands fa-telegram"></i>
               </a>
               <a href="https://instagram.com/buxoro_tadbirkorlar_klubi"  target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-instagram"></i>
               </a>
             </div>
           </div>
@@ -34,7 +36,7 @@ const ContactForm = () => {
         </div>
         <div className="form_right">
           <div className="form_right_top">
-            <h2>Location</h2>
+            <h2>{t(`location`)}</h2>
           </div>
           <div className="form_right_bottom">
             <iframe

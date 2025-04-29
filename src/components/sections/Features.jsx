@@ -1,12 +1,14 @@
 import React from 'react'
 import "../../assets/Features.css"
+import { useTranslation } from 'react-i18next'
 const Features = () => {
+  const {t} = useTranslation();
   return (
     <div id='Features'>
       <div className="container">
         <div className="Features_info">
-          <h3>Save On Electricity Bills</h3>
-          <p>Generate your own clean energy from the sun for free with solar. Add Powerwall to store your energy for use anytime you need it. Tax incentives and flexible financing options may be available to help you get the best price for your solar system. By installing solar panels, you can also reduce your reliance on traditional energy sources.</p>
+          <h3>{t(`featuresH3`)}</h3>
+          <p>{t(`featuresP`)}</p>
         </div>
       </div>
     </div>

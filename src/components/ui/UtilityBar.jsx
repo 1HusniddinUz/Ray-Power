@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../../assets/UtilityBar.css";
 
-const UtilityBar = () => {
+const UtilityBar = ({ changeLang }) => {
   const [hidden, setHidden] = useState(false);
   let lastScrollY = window.scrollY;
 
@@ -14,6 +14,8 @@ const UtilityBar = () => {
     lastScrollY = window.scrollY;
   };
 
+
+
   useEffect(() => {
     window.addEventListener("scroll", controlNavbar);
     return () => {
@@ -21,11 +23,21 @@ const UtilityBar = () => {
     };
   }, []);
 
+
+  const changeLangHandler = (e) => {
+    changeLang(e.target.value);
+  };
+  
+
   return (
     <div id="UtilityBar" className={hidden ? "hidden" : ""}>
       <div className="container">
         <div className="lang_switcher">
-          <span>ENG | RU | UZ</span>
+        <select id="select" onChange={changeLangHandler} defaultValue="ru">
+            <option value="ru">Russian</option>
+            <option value="en">English</option>
+            <option value="uz">Uzbek</option>
+          </select>
         </div>
         <div className="social_links">
           <i className="fa-brands fa-telegram"></i>
