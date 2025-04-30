@@ -42,6 +42,7 @@
 }
 .container #company.info .infoLCard span 
 {
+    color: #FFAA00;
     font-weight: bold;
 }
 .info > span , p 
@@ -71,6 +72,24 @@
     font-weight: 600;
     font-size: 1rem;
     border-radius: 30px;
-    border: 1px solid #3333338a;
-    background: transparent;
+    border: none;
+    background: #FFAA00;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transition: 0.4s all ease-in-out;
+    -webkit-transition: 0.4s all ease-in-out;
+    -moz-transition: 0.4s all ease-in-out;
+    -ms-transition: 0.4s all ease-in-out;
+    -o-transition: 0.4s all ease-in-out;
+}
+.container #company.desc a button:hover
+{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
 }
