@@ -14,8 +14,6 @@ const UtilityBar = ({ changeLang }) => {
     lastScrollY = window.scrollY;
   };
 
-
-
   useEffect(() => {
     window.addEventListener("scroll", controlNavbar);
     return () => {
@@ -23,20 +21,18 @@ const UtilityBar = ({ changeLang }) => {
     };
   }, []);
 
-
   const changeLangHandler = (e) => {
     changeLang(e.target.value);
   };
-  
 
   return (
     <div id="UtilityBar" className={hidden ? "hidden" : ""}>
       <div className="container">
         <div className="lang_switcher">
-        <select id="select" onChange={changeLangHandler} defaultValue="ru">
-            <option value="ru">Russian</option>
-            <option value="en">English</option>
-            <option value="uz">Uzbek</option>
+          <select id="select" onChange={changeLangHandler} defaultValue="ru">
+            <option value="ru">🇷🇺 Russian</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="uz">🇺🇿 Uzbek</option>
           </select>
         </div>
         <div className="social_links">
