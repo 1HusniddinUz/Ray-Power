@@ -2,31 +2,59 @@ import React from "react";
 import "../../assets/ContactForm.css";
 import { useTranslation } from "react-i18next";
 const ContactForm = () => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   return (
     <div id="ContactForm">
       <div className="container">
         <div className="form_left">
           <div className="form_left_top">
             <h2>{t(`contact`)}</h2>
-            <span>{t(`generalManager`)}  {t(`managerName`)}</span>
             <span>
-            {t(`phone`)} <a href="tel:+998998887766" target="_blank" rel="noopener noreferrer">+998(99)888-77-66 </a>
+              {t(`generalManager`)} {t(`managerName`)}
             </span>
             <span>
-            {t(`email`)} :{" "}
-              <a href="https://PalonchayevPaloncha@mail.ru" target="_blank" rel="noopener noreferrer">
-                PalonchayevPaloncha@mail.ru
+              {t(`phone`)}{" "}
+              <a
+                href="tel:998950036001"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                +998 95 003 60 01{" "}
+              </a>
+            </span>
+            <span>
+              {t(`email`)}
+              <a
+                href="https://moxitorayeva@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                moxitorayeva@gmail.com
               </a>
             </span>
           </div>
           <div className="form_left_bottom">
             <div className="form_left_bottom_social">
-              <a href="https://t.me/buxoro_tadbirkorlar_klubi"  target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://t.me/ray_power_uz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-telegram"></i>
               </a>
-              <a href="https://instagram.com/buxoro_tadbirkorlar_klubi"  target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://instagram.com/raypower_uz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/@RAY-POWER-UZ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-youtube"></i>
               </a>
             </div>
           </div>

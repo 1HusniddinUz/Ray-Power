@@ -10,7 +10,7 @@ const translationsEn = {
   featuresH3: `Save on electricity`,
   featuresP: `Generate clean solar energy for free using sunlight. Add a Powerwall to store energy for use at any time. Tax incentives and flexible financing options may be available to help you get the best price on your solar system. Installing solar panels can also reduce your reliance on traditional energy sources.`,
   generalManager: `General Manager: `,
-  managerName: `Palonchayev Paloncha`,
+  managerName: `Turayeva Mokhigul Ilhomovna`,
   phone: `Phone: `,
   email: `Email: `,
   location: `Location`,

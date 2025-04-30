@@ -53,7 +53,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="call_center">
-          <a href="tel:998918208446" target="_blank" rel="noopener noreferrer">+998(91)820-84-46</a>
+          <a href="tel:998950036001" target="_blank" rel="noopener noreferrer">+998 95 003 60 01</a>
         </div>
       </div>
     </nav>

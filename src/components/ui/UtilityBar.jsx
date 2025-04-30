@@ -36,9 +36,9 @@ const UtilityBar = ({ changeLang }) => {
           </select>
         </div>
         <div className="social_links">
-          <i className="fa-brands fa-telegram"></i>
-          <i className="fa-brands fa-instagram"></i>
-          <i className="fa-brands fa-facebook"></i>
+          <a href="https://t.me/ray_power_uz" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-telegram"></i></a>
+          <a href="https://instagram.com/raypower_uz" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@RAY-POWER-UZ" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-youtube"></i></a>
         </div>
       </div>
     </div>
