@@ -11,7 +11,7 @@
 }
 
 #UtilityBar.hidden {
-  top: -100%; /* yashirish uchun yuqoriga suriladi */
+  top: -100%;
 }
 
 #UtilityBar .container {

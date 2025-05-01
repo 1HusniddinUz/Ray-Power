@@ -30,9 +30,9 @@ const UtilityBar = ({ changeLang }) => {
       <div className="container">
         <div className="lang_switcher">
           <select id="select" onChange={changeLangHandler} defaultValue="ru">
-            <option value="ru">🇷🇺 Russian</option>
+            <option value="ru">🇷🇺 Русский</option>
             <option value="en">🇬🇧 English</option>
-            <option value="uz">🇺🇿 Uzbek</option>
+            <option value="uz">🇺🇿 O'zbek</option>
           </select>
         </div>
         <div className="social_links">

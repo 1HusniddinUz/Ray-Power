@@ -18,7 +18,7 @@ const AboutUs = () => {
           <img src={CompanyMainPhoto} alt="RAYPOWER COMPANY'S MAIN PHOTO" loading='lazy'/>
         </div>
         <div id='company' className="desc">
-          <p>{t(`aboutUsRightP`)}</p>
+          {/* <p>{t(`aboutUsRightP`)}</p>  */}
           <a href="tel:998998887766" target='_blank' rel="noopener noreferrer"><button>{t(`aboutUsBtn`)}</button></a>
         </div>
       </div>

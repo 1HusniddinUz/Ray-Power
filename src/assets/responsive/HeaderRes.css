@@ -1,0 +1,96 @@
+@media screen and (max-width:480px) {
+    #UtilityBar .container .lang_switcher select
+    {
+        padding: 5px 12px;
+        font-size: 10px; 
+    }
+    #UtilityBar .container .container .social_links
+    {
+        width: 20%; 
+        justify-content: space-between; 
+    }
+    #UtilityBar .container .social_links i{
+        font-size: 1rem; 
+    }
+    nav .container 
+    {
+        width: 90%;
+    }
+    nav .logo a
+    {
+        font-size: 1.2rem;
+    }
+    nav .menu
+    {
+        width: 50%;
+        border: 1px solid white;
+    }
+    nav .menu ul li a
+    {
+        font-size: 0.8rem;
+    }
+    nav .call_center
+    {
+    }
+    nav .call_center a
+    {
+        font-size: 0.5rem; 
+    }
+    .hero-section
+    {
+        width: 100%;
+    }
+    .hero-section .slogan h1
+    {
+        font-size: 1.5rem;
+    }
+    .hero-section .slogan h1 span::after 
+    {
+        left: 30px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    #UtilityBar .container .lang_switcher select
+    {
+        padding: 5px 12px;
+        font-size: 12px; 
+    }
+    #UtilityBar .container .container .social_links
+    {
+        width: 17%; 
+        justify-content: space-between; 
+    }
+    #UtilityBar .container .social_links i{
+        font-size: 1.2rem; 
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    #UtilityBar .container .lang_switcher select
+    {
+        padding: 7px 12px;
+        font-size: 12px; 
+    }
+    #UtilityBar .container .container .social_links
+    {
+        width: 12%; 
+        justify-content: space-between; 
+    }
+    #UtilityBar .container .social_links i{
+        font-size: 1.2rem; 
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    #UtilityBar .container .lang_switcher select
+    {
+        padding: 7px 14px;
+        font-size: 12px; 
+    }
+    #UtilityBar .container .container .social_links
+    {
+        width: 12%; 
+        justify-content: space-between; 
+    }
+    #UtilityBar .container .social_links i{
+        font-size: 1.2rem; 
+    }
+}

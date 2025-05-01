@@ -1,5 +1,6 @@
 import React from "react";
 import "../../assets/Header.css";
+import "../../assets/responsive/HeaderRes.css"
 import Navbar from "../ui/Navbar";
 import UtilityBar from "../ui/UtilityBar";
 import i18n from "i18next";
