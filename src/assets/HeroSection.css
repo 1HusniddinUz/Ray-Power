@@ -285,13 +285,7 @@
   .slogan h1 {
     font-size: 2rem;
   }
-  
-  .card {
-    width: 100%;
-    max-width: 350px;
-    height: 220px;
-  }
-  
+
   .card-content img {
     height: 60px;
   }
