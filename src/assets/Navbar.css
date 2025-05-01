@@ -114,7 +114,7 @@ nav .container {
 }
 .lang_switcher_mobile,
 .social_links_mobile {
-  display: none; /* Default: yashir */
+  display: none ; /* Default: yashir */
 }
 
 /* * UTILITY BAR */
@@ -124,7 +124,9 @@ nav .container {
   .burger {
     display: flex;
   }
-
+  #UtilityBar {
+    display: none;
+  }
   .menu {
     position: absolute;
     height: 100vh;
