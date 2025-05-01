@@ -19,6 +19,7 @@
     nav
     {
         top: 7vh !important;
+        align-content: center;
     }
     nav .container 
     {
