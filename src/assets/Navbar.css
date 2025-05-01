@@ -112,6 +112,12 @@ nav .container {
 .burger.active span:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
 }
+.lang_switcher_mobile,
+.social_links_mobile {
+  display: none; /* Default: yashir */
+}
+
+/* * UTILITY BAR */
 
 /* ✅ Mobil menyu responsiv */
 @media (max-width: 768px) {
@@ -133,15 +139,17 @@ nav .container {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     transition: 0.3s ease-in-out;
-}
+  }
 
-.menu.open {
+  .menu.open {
     position: fixed;
     top: 10vh;
     left: 0;
     width: 100vw;
-    /*👈to‘liqekraneni*/height: 90vh;
-    /*👈to‘liqekranbo‘yi*/background-color: white;
+    /*👈to‘liqekraneni*/
+    height: 90vh;
+    /*👈to‘liqekranbo‘yi*/
+    background-color: white;
     z-index: 1000;
     display: flex;
     align-content: center;
@@ -153,8 +161,8 @@ nav .container {
     -moz-transition: transform 0.3s ease-in-out;
     -ms-transition: transform 0.3s ease-in-out;
     -o-transition: transform 0.3s ease-in-out;
-}
-  
+  }
+
   /* Menyu yopiq holatda — display: none bilan yashirish */
   .menu.closed {
     display: none;
@@ -182,5 +190,43 @@ nav .container {
 
   .call_center_mobile {
     display: block; /* Menyu ichidagisi chiqadi */
+  }
+  .lang_switcher_mobile,
+  .social_links_mobile {
+    margin: 10px 0px;
+    display: block; /* Default: yashir */
+  }
+  .lang_switcher_mobile select {
+    background-color: #2b405e;
+    /*darkgray(almostblack)*/
+    color: #fff;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    appearance: none;
+    /*removedefaultarrow*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 18px;
+    transition: all 0.3s ease;
+  }
+  .lang_switcher_mobile select:hover {
+    background-color: #374151; /* slightly lighter gray */
+    cursor: pointer;
+  }
+  .social_links_mobile {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .social_links_mobile a i {
+    color: #f9b253;
+    font-size: 1.5rem;
+    cursor: pointer;
   }
 }

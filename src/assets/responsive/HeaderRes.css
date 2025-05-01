@@ -1,25 +1,8 @@
 @media screen and (max-width:480px) {
-    #UtilityBar 
+    header nav
     {
-        height: 7vh !important;
-    }
-    #UtilityBar .container .lang_switcher select
-    {
-        padding: 5px 12px;
-        font-size: 10px; 
-    }
-    #UtilityBar .container .social_links
-    {
-        width: 20%;
-        justify-content: space-between; 
-    }
-    #UtilityBar .container .social_links i{
-        font-size: 1rem; 
-    }
-    nav
-    {
-        top: 7vh !important;
-        align-content: center;
+        top: 0vh !important;
+        align-content: bottom;
     }
     nav .container 
     {
