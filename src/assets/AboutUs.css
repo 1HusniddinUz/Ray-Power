@@ -27,14 +27,11 @@
 {
     font-weight: 400;
     font-size: 2rem;
-    letter-spacing: 1px;
-}
-.container #company h2 > span
-{
     color: #FFAA00;
+    letter-spacing: 1px;
     font-weight: 600;
 }
-.container #company.info 
+.container #company .info 
 {
     display: flex;
     flex-direction: column;
@@ -57,7 +54,7 @@
     height: 100%;
     object-fit: cover;
 }
-.container #company.desc
+.container #company .desc
 {
     display: flex;
     flex-direction: column;

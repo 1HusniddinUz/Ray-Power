@@ -1,0 +1,299 @@
+@media screen and (max-width:480px) {
+    #AboutUs
+    {
+        background-image: url("../media/Ray-Power-About-Bg.png") !important;
+        width: 100% !important  ;
+        padding: 20px 0px !important;
+        object-fit: cover !important;
+        background-size: contain !important ;
+        align-content: center !important    
+
+    }
+    #AboutUs .container
+    {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .container #company
+    {
+        text-align: center !important; 
+        width: 100% !important;
+        padding: 0px !important;
+        flex-direction: column;
+    }
+    #AboutUs .container #company h2
+    {
+        font-size: 1.5rem ;
+    }
+    #AboutUs .container #company.info
+    {
+        gap: 20px;
+    }
+    #AboutUs .container #company.main_photo img
+    {
+        width: 70%;
+    }
+    #AboutUs .container #company.desc
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    #Features 
+    {
+        padding: 40px 0px !important;
+        width: 100%;
+        height: 100vh !important;
+    }
+    #Features .features_bg
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    #Features .container .Features_info
+    {
+        width: 90%;
+        z-index: 3;
+        position: absolute;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #Features .container .Features_info h3
+    {
+        color: #FFAA00;
+        font-size: 1.5rem;
+    }
+    #Features .container .Features_info p
+    {
+        color: black;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    #AboutUs
+    {
+        background-image: url("../media/Ray-Power-About-Bg.png") !important;
+        width: 100% !important  ;
+        padding: 20px 0px !important;
+        object-fit: cover !important;
+        background-size: contain !important ;
+        align-content: center !important    
+
+    }
+    #AboutUs .container
+    {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .container #company
+    {
+        text-align: center !important; 
+        width: 100% !important;
+        padding: 0px !important;
+        flex-direction: column;
+    }
+    #AboutUs .container #company h2
+    {
+        font-size: 1.5rem ;
+    }
+    #AboutUs .container #company.info
+    {
+        gap: 20px;
+    }
+    #AboutUs .container #company.main_photo img
+    {
+        width: 70%;
+    }
+    #AboutUs .container #company.desc
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    #Features 
+    {
+        padding: 40px 0px !important;
+        width: 100%;
+        height: 100vh !important;
+    }
+    #Features .features_bg
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    #Features .container .Features_info
+    {
+        width: 90%;
+        z-index: 3;
+        position: absolute;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #Features .container .Features_info h3
+    {
+        color: #FFAA00;
+        font-size: 1.5rem;
+    }
+    #Features .container .Features_info p
+    {
+        color: black;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    #AboutUs
+    {
+        background-image: url("../media/Ray-Power-About-Bg.png") !important;
+        width: 100% !important  ;
+        padding: 20px 0px !important;
+        object-fit: cover !important;
+        background-size: contain !important ;
+        align-content: center !important    
+
+    }
+    #AboutUs .container
+    {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .container #company
+    {
+        text-align: center !important; 
+        width: 100% !important;
+        padding: 0px !important;
+        flex-direction: column;
+    }
+    #AboutUs .container #company h2
+    {
+        font-size: 1.5rem ;
+    }
+    #AboutUs .container #company.info
+    {
+        gap: 20px;
+    }
+    #AboutUs .container #company.main_photo img
+    {
+        width: 70%;
+    }
+    #AboutUs .container #company.desc
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    #Features 
+    {
+        padding: 40px 0px !important;
+        width: 100%;
+        height: 100vh !important;
+    }
+    #Features .features_bg
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    #Features .container .Features_info
+    {
+        width: 70%;
+        z-index: 3;
+    }
+    #Features .container .Features_info h3
+    {
+        color: #FFAA00;
+        font-size: 1.5rem;
+    }
+    #Features .container .Features_info p
+    {
+        color: black;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    #AboutUs
+    {
+        background-image: url("../media/Ray-Power-About-Bg.png") !important;
+        width: 100% !important  ;
+        padding: 20px 0px !important;
+        object-fit: cover !important;
+        background-size: contain !important ;
+        align-content: center !important    
+
+    }
+    #AboutUs .container
+    {
+        width: 90%;
+        display: flex;
+        gap: 20px;
+    }
+    .container #company
+    {
+        text-align: center !important; 
+        width: 100% !important;
+        padding: 0px !important;
+        flex-direction: column;
+    }
+    #AboutUs .container #company h2
+    {
+        font-size: 1.5rem ;
+    }
+    #AboutUs .container #company.info
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 120px;
+    }
+    #AboutUs .container #company.main_photo img
+    {
+        width: 90%;
+    }
+    #AboutUs .container #company.desc
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 130px;
+        text-align: center;
+    }
+    #Features 
+    {
+        padding: 40px 0px !important;
+        width: 100%;
+        height: 110vh !important;
+    }
+    #Features .features_bg
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    #Features .container .Features_info
+    {
+        width: 60%;
+        z-index: 3;
+        text-align: center;
+    }
+    #Features .container .Features_info h3
+    {
+        font-size: 1.5rem;
+    }
+    #Features .container .Features_info p
+    {
+        color: black;
+    }
+}

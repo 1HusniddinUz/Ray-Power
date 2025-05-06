@@ -1,10 +1,11 @@
-import React from 'react'
-import "../../assets/Features.css"
-import { useTranslation } from 'react-i18next'
+import React from "react";
+import "../../assets/Features.css";
+import { useTranslation } from "react-i18next";
 const Features = () => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   return (
-    <div id='Features'>
+    <div id="Features">
+      <div className="features_bg"></div>
       <div className="container">
         <div className="Features_info">
           <h3>{t(`featuresH3`)}</h3>
@@ -12,7 +13,7 @@ const Features = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Features
+export default Features;

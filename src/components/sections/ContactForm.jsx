@@ -1,5 +1,6 @@
 import React from "react";
 import "../../assets/ContactForm.css";
+import "../../assets/responsive/FooterRes.css"
 import { useTranslation } from "react-i18next";
 const ContactForm = () => {
   const { t } = useTranslation();
