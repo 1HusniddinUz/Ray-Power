@@ -1,6 +1,6 @@
 import React from "react";
 import "../../assets/ContactForm.css";
-import "../../assets/responsive/FooterRes.css"
+import "../../assets/responsive/FooterRes.css";
 import { useTranslation } from "react-i18next";
 const ContactForm = () => {
   const { t } = useTranslation();
@@ -70,7 +70,7 @@ const ContactForm = () => {
           <div className="form_right_bottom">
             <iframe
               title="map"
-              src="https://maps.google.com/maps?q=39.751372,64.453918&hl=es&z=16&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6130.114642563849!2d64.253006!3d39.805706!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDQ4JzIwLjUiTiA2NMKwMTUnMTAuOCJF!5e0!3m2!1sru!2s!4v1747136757081!5m2!1sru!2s"
               width="100%"
               height="450"
               style={{
@@ -78,8 +78,9 @@ const ContactForm = () => {
                 borderRadius: "10px",
                 boxShadow: "0 4px 10px rgba(0, 0, 0, 0.4)",
               }}
-              allowFullScreen
+              allowFullScreen=""
               loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>

@@ -60,7 +60,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        <div
+        <div aria-label="Open menu"
           className={`burger ${menuOpen ? "active" : ""}`}
           onClick={toggleMenu}
         >
