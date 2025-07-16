@@ -104,7 +104,7 @@ const Navbar = () => {
               <i className="fa-brands fa-telegram"></i>
             </a>
             <a
-              href="https://instagram.com/raypower_uz"
+              href="https://www.instagram.com/raypoweruzb"
               target="_blank"
               rel="noopener noreferrer"
             >
